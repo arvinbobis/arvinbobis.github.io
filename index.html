@@ -1,254 +1,573 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!-- FlatFy Theme - Andrea Galanti /-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="../../favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
+    <meta name="author" content="">
 
-  <title>Carousel Template for Bootstrap</title>
+    <title>NICE IT</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/carousel.css" rel="stylesheet">
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
+
+	 <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<!--[if IE 9]>
+		<script src="js/PIE_IE9.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/PIE_IE678.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
 
 </head>
-<!-- NAVBAR
-  ================================================== -->
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
 
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Project name</a>
-            </div>
-            <div id="navbar" class="navbar-collapse navbar-right">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
-        </nav>
+<body id="home">
 
-      </div>
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+
+	<!-- FullScreen -->
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h3 class="h1_home wow fadeIn" data-wow-delay="0.4s">NICE IT</h3>
+			<h4 class="h3_home wow fadeIn" data-wow-delay="0.6s">First IT Training Bootcamp in Cavite</h4>
+			<ul class="list-inline intro-social-buttons">
+				<li><a href="#" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">SIGN UP</span></a>
+				</li>
+				<!-- <li id="download" ><a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
+				</li> -->
+			</ul>
+		</div>
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down ">
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
     </div>
 
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">NICE IT</a>
+			</div>
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="images/HomePage1.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <div class="opaque-sample">
-                <h3>Defining your business</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="images/HomePage2.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <div class="opaque-sample">
-                <h3>Go for extra mile</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="images/HomePage3.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <div class="opaque-sample">
-                <h3>Have someone's work cutout</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="fourth-slide" src="images/HomePage4.jpg" alt="Fourth slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <div class="opaque-sample">
-                <h3>Numbers is important in business, as it was in grade school</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="fifth-slide" src="images/HomePage5.jpg" alt="Fifth slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <div class="opaque-sample">
-                <h3>Professionals on your side</h3>
-                <p>Outsourcing your numbers to us, gives you a great way to gain full-time knowledge on your team without having to pay for it around the clock.  Our team who understand the best practices makes the process easier and effective</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="sixth-slide" src="images/HomePage6.jpg" alt="Sixth slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <div class="opaque-sample">
-                <h3>Savings on your operating expenses</h3>
-                <p>By letting our team handle your numbers, recruitment and other payroll expenses will be minimized at a great extent. You can also have an access to accounting software without worrying the budget</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="seventh-slide" src="images/HomePage7.png" alt="Seventh slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <div class="opaque-sample">
-                <h3>Focus on your own business</h3>
-                <p>Management time will be saved and enable to focus on building the business and strengthening the core business branding</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br>
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+
+					<li class="menuItem" data-toggle="collapse" data-target=".navbar-ex1-collapse"><a href="#whatis">What is NICE IT?</a></li>
+					<li class="menuItem"><a href="#useit">Training and Solutions</a></li>
+					 <li class="menuItem"><a href="#newsletter">Newsletter</a></li>
+					<li class="menuItem"><a href="#credits">Pricing</a></li>
+					<li class="menuItem"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<!-- What is -->
+	<div id="whatis" class="content-section-b" style="border-top: 0">
+		<div class="container">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>What is NICE IT?</h2>
+				<!-- <p class="lead" style="margin-top:0">A special thanks to Death.</p> -->
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="img/icon/tweet.svg" alt="Generic placeholder image">
+				  <h3>Stands for</h3>
+				  <p class="lead">A short term for Network Infrastructure and Communications Engineering Information Technology Systems.</p>
+
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/picture.svg" alt="Generic placeholder image">
+				   <h3>We provide</h3>
+				   <p class="lead"> Training on IT networking (CISCO), and Linux and Microsoft Systems Administration. We also provide secured and reliable network solutions focusing on Local Area Network (LAN) and Wide Area Network (WAN) for business offices and schools.</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/retina.svg" alt="Generic placeholder image">
+				   <h3>Payment options</h3>
+					<p class="lead">You can pay in cash, Bank transfer of funds or Bank account deposit. Should you opt to pay using bank facilities, <strong>Niceitas</strong>  normally sends their bank account number once you filled out and submit via online your enrolment / registration form.</p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+			</div><!-- /.row -->
+
+			<div class="row tworow">
+
+				<div class="col-sm-4  wow fadeInDown text-center">
+				  <img class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
+				  <h3>Eligible for IT undergraduates</h3>
+				  <p class="lead">Yes.  In fact, we open our training services to help even the college undergraduates to become certified on Cisco, Linux, and Microsoft Systems networking and administration. </p>
+				 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/map.svg" alt="Generic placeholder image">
+				   <h3>Discounts</h3>
+				   <p class="lead">Yes, we are currently offering 20% discount on the training fee for those who fully pay in cash on or before the training starts. </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/browser.svg" alt="Generic placeholder image">
+				   <h3>Weekend Training</h3>
+				 <p class="lead">Yes.  We have training classes on weekends to accommodate students as well as those who are working on week days. </p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+			</div><!-- /.row -->
+		</div>
+	</div>
+
+	<!-- Use it -->
+    <div id ="useit" class="content-section-a">
+      <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+        <h2>Training and Solutions</h2>
+        <!-- <p class="lead" style="margin-top:0">A special thanks to Death.</p> -->
       </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
+        <div class="container">
 
+            <div class="row">
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="img/ipad.png" alt="">
+                </div>
 
-    <div class="container marketing">
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
+                    <h3 class="section-heading">CISCO SYSTEMS</h3>
+					<div class="sub-title lead3">Do you want to jumpstart or level up your <br/>career in the field of networking?</div>
+                    <p class="lead">
+						CCNA Routing and Switching is a training course that lays the foundation to a working knowledge on networking.  The course opens the door to the certification ladder for Cisco networking professions.
+					</p>
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
+					 <!-- <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p> -->
+				</div>
+            </div>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="http://placehold.it/500x500" alt="Generic placeholder image">
+        <!-- /.container -->
+    </div>
+
+    <div class="content-section-b">
+
+		<div class="container">
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeftBig">
+                     <div id="owl-demo-1" class="owl-carousel">
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+							</div>
+						</a>
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+							</div>
+						</a>
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+							</div>
+						</a>
+					</div>
+                </div>
+
+                <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">
+                    <h3 class="section-heading">MICROSOFT</h3>
+					<div class="sub-title lead3">Take your first step into becoming <br/>a Microsoft Certified Solutions Expert.</div>
+                    <p class="lead">
+						This training course is designed to help training participants hone their skills in Microsoft Windows Server 2012. Topics include Windows Server installation, configuration, active directory accounts, failover clustering, troubleshooting, real environment case studies, and hands-on training.
+					</p>
+
+					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
+					 <!-- <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p> -->
+				</div>
+			</div>
+        </div>
+    </div>
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+             <div class="row">
+
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="img/doge.png" alt="">
+                </div>
+
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
+                    <h3 class="section-heading">LINUX</h3>
+                    <div class="sub-title lead3">Do you want to go with the growth of <br/>open source platform on the internet?</div>
+
+                    <!-- <p class="lead">Do you want to go with the growth of <br/>open source platform on the internet?
+					</p> -->
+
+					<!-- <ul class="descp lead2">
+						<li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
+						<li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
+						<li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
+					</ul> -->
+          <p class="lead">
+  This training course is designed to help training participants hone their skills in Microsoft Windows Server 2012. Topics include Windows Server installation, configuration, active directory accounts, failover clustering, troubleshooting, real environment case studies, and hands-on training.
+</p>
+<p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
+				</div>
+            </div>
+        </div>
+
+    </div>
+
+	<!-- Screenshot -->
+	<!-- <div id="screen" class="content-section-b" style="display:none"> -->
+        <!-- <div class="container">
+          <div class="row" >
+			 <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
+				<h2>Screen App</h2>
+				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
+			 </div>
+		  </div>
+		    <div class="row wow bounceInUp" >
+              <div id="owl-demo" class="owl-carousel">
+
+				<a href="img/slide/1.png" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+					</div>
+				</a>
+
+               <a href="img/slide/2.png" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+					</div>
+				</a>
+
+				<a href="img/slide/3.png" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+					</div>
+				</a>
+
+				<a href="img/slide/1.png" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+					</div>
+				</a>
+
+               <a href="img/slide/2.png" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+					</div>
+				</a>
+
+				<a href="img/slide/3.png" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+					</div>
+				</a>
+              </div>
+          </div>
+        </div>
+ -->
+
+	<!-- </div> -->
+
+	<div id="newsletter" class="content-section-c ">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-6 col-md-offset-3 text-center white">
+				<h2>Get Live Updates</h2>
+				<!-- <p class="lead" style="margin-top:0">A special thanks to Death.</p> -->
+			 </div>
+       <div class="newsletter_padding_mobile"></div>
+
+
+
+			<div class="col-md-6 col-md-offset-3 text-center">
+				<div class="mockup-content">
+						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
+							<button type="button " class="subscribe"><span>Subscribe to our Newsletter</span></button>
+							<div class="morph-content">
+								<div>
+									<div class="content-style-form content-style-form-4 ">
+										<h2 class="morph-clone">Subscribe to our Newsletter</h2>
+										<form>
+											<p><label>Your Email Address</label><input type="text"/></p>
+											<p><button>Subscribe me</button></p>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Credits -->
+	<div id="credits" class="content-section-a">
+		<div class="container">
+			<div class="row">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Pricing</h2>
+				<!-- <p class="lead" style="margin-top:0">A special thanks to Death.</p> -->
+			 </div>
+
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4 box-icon rotate">
+							<i class="fa fa-desktop fa-4x "> </i>
+						</div>
+						<div class="col-md-8 box-ct">
+							<h4> CCNA Routing & Switching </h4>
+							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
+              <p><a class="btn btn-embossed btn-primary" href="#" role="button">Php 18,000</a>
+   					  <a class="btn btn-embossed btn-info" href="#" role="button">View Details</a></p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4 box-icon rotate">
+						<i class="fa fa-picture-o fa-4x "> </i>
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h4> CCNA  Collaboration  </h4>
+						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p>
+            <p><a class="btn btn-embossed btn-primary" href="#" role="button">Php 18,000</a>
+            <a class="btn btn-embossed btn-info" href="#" role="button">View Details</a></p>
+					  </div>
+					</div>
+			  </div>
+		  </div>
+
+		  <div class="row tworow">
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4 box-icon rotate">
+							<i class="fa fa-magic fa-4x "> </i>
+						</div>
+						<div class="col-md-8 box-ct">
+							<h4> Linux System Administration </h4>
+							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
+              <p><a class="btn btn-embossed btn-primary" href="#" role="button">Php 15,000</a>
+              <a class="btn btn-embossed btn-info" href="#" role="button">View Details</a></p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4 box-icon rotate">
+						<i class="fa fa-heart fa-4x "> </i>
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h4> Microsoft Server Administration</h4>
+						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p>
+            <p><a class="btn btn-embossed btn-primary" href="#" role="button">Php 12,000</a>
+            <a class="btn btn-embossed btn-info" href="#" role="button">View Details</a></p>
+					  </div>
+					</div>
+			  </div>
+		  </div>
+		</div>
+	</div>
+
+	<!-- Banner Download -->
+	<!-- <div id="downloadlink" class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Download Free</h2>
+				<p class="lead" style="margin-top:0">Pay with a Tweet</p>
+				<p><a class="btn btn-embossed btn-primary view" role="button">Free Download</a></p>
+			 </div>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- Contact -->
+	<div id="contact" class="content-section-a">
+		<div class="container">
+			<div class="row">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Contact</h2>
+				<!-- <p class="lead" style="margin-top:0">A special thanks to Death.</p> -->
+			</div>
+
+			<form role="form" action="" method="post" >
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="InputName">Your Name</label>
+						<div class="input-group">
+							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="InputEmail">Your Email</label>
+						<div class="input-group">
+							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="InputMessage">Message</label>
+						<div class="input-group">
+							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+
+					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+				</div>
+			</form>
+
+			<hr class="featurette-divider hidden-lg">
+				<div class="col-md-5 col-md-push-1 address">
+					<address>
+					<h3>Office Location</h3>
+					<p class="lead"><a href="https://www.google.com/maps/place/Veluz+-+Frances+Plaza/@14.3249598,120.9276891,14z/data=!4m8!1m2!2m1!1sVelus-Frances+Building!3m4!1s0x3397d4fed858b195:0x18d69b504795b707!8m2!3d14.331588!4d120.938754">Room 304, Velus-Frances Building,<br>
+					N.Guevarra Street, Brgy. Zone 1,<br>
+          Dasmariñas City, Cavite<br>
+          Philippines</a><br>
+					Phone: (+63) 9175344425 / (+63) 9988565765<br>
+					Email: info@niceitas.com</p>
+					</address>
+
+					<h3>Social</h3>
+					<li class="social">
+					<a href="https://www.facebook.com/niceittraining/"><i class="fa fa-facebook-square fa-size"> </i></a>
+					<a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a>
+					<a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
+					<a href="#"><i class="fa fa-flickr fa-size"> </i> </a>
+					</li>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3 class="footer-title">Join Us</h3>
+            <p>Do you want to jumpstart or level up your career in the field of networking?<br/>
+               Enroll with us and pursue your Cisco career certification path.
+            </p>
+
+			<!-- LICENSE -->
+			<!-- <a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
+		   property="dc:title">Flatfy Theme </a> by
+		   <a rel="dc:creator" href="http://www.andreagalanti.it"
+		   property="cc:attributionName">Andrea Galanti</a>
+		   is licensed to the public under
+		   --><BR> <a rel="license"
+		   href="#"><h5>Nice IT Systems - All Rights Reserved ©</h5></a>.
+
+
+          </div> <!-- /col-xs-7 -->
+
+          <!-- <div class="col-md-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Flatfy Theme</h3>
+              <ul>
+                <li>12 Column Grid Bootstrap</li>
+                <li>Form Contact</li>
+                <li>Drag Gallery</li>
+                <li>Full Responsive</li>
+                <li>Lorem Ipsum</li>
+              </ul>
+              Go to: <a href="http://andreagalanti.it/flatfy" target="_blank">andreagalanti.it/flatfy</a>
+            </div>
+          </div> -->
         </div>
       </div>
+    </footer>
 
-      <hr class="featurette-divider">
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		  $(document).ready( function() {
+  		  $('.navbar-default').stickUp();
+        $('.navbar-collapse ul li a').click(function(){
+          $('.navbar-toggle:visible').click();
+        });
+        $('.subscribe').click(function() {
+          $('.newsletter_padding_mobile').hide();
+        });
+		  });
+	  });
 
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="http://placehold.it/500x500" alt="Generic placeholder image">
-        </div>
-      </div>
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script>
+</body>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="http://placehold.it/500x500" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="js/vendor/holder.min.js"></script>
-  </body>
-  </html>
+</html>
